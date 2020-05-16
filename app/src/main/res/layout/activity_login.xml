@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFAF0"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center"
+        android:text="Login"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amarante" />
+
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_round"
+        android:gravity="center"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_round"
+        android:gravity="center"
+        android:hint="Enter Password"
+        android:inputType="number" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+    <ProgressBar
+        android:id="@+id/progressbarLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button_round"
+            android:text="Login" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Create New Account !"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:onClick="openRegister"
+        />
+
+
+</LinearLayout>

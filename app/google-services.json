@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "115642293269",
+    "firebase_url": "https://coronahelpdesk-ff6d9.firebaseio.com",
+    "project_id": "coronahelpdesk-ff6d9",
+    "storage_bucket": "coronahelpdesk-ff6d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115642293269:android:25606534773a65d7d5c21c",
+        "android_client_info": {
+          "package_name": "com.example.coronahelpdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115642293269-uvq5kndhnr65279d2jeajl94711jtqd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.coronahelpdesk",
+            "certificate_hash": "5a8b57f20bc10aa24217f96af65ee2f4dde8d848"
+          }
+        },
+        {
+          "client_id": "115642293269-0a9qu8j8qcufguk847tfmbkdm09rtm9t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMqxrDg1aeQjf8PbaF-yH4tG38XV4pjxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115642293269-0a9qu8j8qcufguk847tfmbkdm09rtm9t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

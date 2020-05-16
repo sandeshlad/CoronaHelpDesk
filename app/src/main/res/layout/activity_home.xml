@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:gravity="center"
+        android:text="Customer Details"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/amarante" />
+
+    <EditText
+        android:id="@+id/c_name"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edittext_round"
+        android:gravity="center"
+        android:hint="Enter Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/c_phone"
+        android:layout_width="350sp"
+        android:layout_height="40sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edittext_round"
+        android:gravity="center"
+        android:hint="Enter Phone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="350sp"
+        android:layout_height="100dp"
+        android:id="@+id/c_address"
+        android:padding="10dp"
+        android:lines="3"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:background="@drawable/edittext_round"
+        android:minLines="5"
+        android:layout_gravity="center"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="Enter Address"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/c_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="bottom"
+        android:hint="Enter List Item"
+        android:inputType="textMultiLine" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+    <ProgressBar
+        android:id="@+id/c_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:elevation="100dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round"
+        android:text="send" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
